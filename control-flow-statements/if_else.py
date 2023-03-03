@@ -21,7 +21,7 @@ That means, it will executed always whether the condition is True or False
 
 
 # 2) if....else statement :
-"else statement only executed when if statement is False"
+"""else statement only executed when if statement is False"""
 
 # Example 2:
 age = input("Enter your age: ")
@@ -61,7 +61,7 @@ is False. but if you use two if statement both of them will be executed even abo
 """
 
 # Ternary operator :
-"it is short hand for if else statement"
+"""it is short hand for if else statement"""
 # Example :
 num1 = 5
 num2 = 6
