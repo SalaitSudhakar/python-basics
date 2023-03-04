@@ -10,15 +10,15 @@ print(
 """
 )
 operator = input("Enter any operator: ")
-if operator == "+" :
+if operator == "+":
     result = number1 + number2
-elif operator == "-" :
+elif operator == "-":
     result = number1 - number2
-elif operator == "*" :
+elif operator == "*":
     result = number1 * number2
-elif operator == "/" :
+elif operator == "/":
     result = number1 / number2
-else :
+else:
     print("Invalid operator.")
 
 if operator in "+-*/":
