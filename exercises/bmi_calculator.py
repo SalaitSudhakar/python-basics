@@ -1,6 +1,7 @@
 """ BMI FORMULA
 BMI = weight in kg / (height in m power(^) 2)
 """
+
 height = float(input("Enter your height in metre: "))
 weight = float(input("Enter your weight in kilogram: "))
 bmi = int(weight / (height ** 2))
