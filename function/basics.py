@@ -10,7 +10,7 @@ greeting()
 
 # Example 2 :
 def add_numbers(): # Defining a function
-    """This function takes two numbers prompt from user and add them."""
+    """This function takes two numbers prompted from user and add them."""
     number1 = int(input("Enter a number: "))
     number2 = int(input("Enter another number: "))
     sum_of_numbers = number1 + number2
@@ -29,8 +29,8 @@ print(add_numbers.__doc__)
 
 
 # Functions with inputs
-""" 'Parameter' is a name of variable in which data been passed in, which is defined when a defining a function.
-'Argument' is a actual value which is passed in when calling a function.
+""" 'Parameter' is a name of variable in which data being passed in, which is defined when a defining a function.
+'Argument' is receives an actual value which is passed in when calling a function.
 """
 
 # Example for functions with input:
@@ -58,7 +58,7 @@ def life_remaining(name, age):
     months = years * 12 # months left
     weeks = years * 52 # weeks left
     days = years * 365 # days left
-    life_left = f"hello {name}!\nYou have {months} months, {weeks} weeks and {days} days left in this word."
+    life_left = f"hello {name}!\nYou have {months} months, {weeks} weeks and {days} days left in this world."
     print(life_left)
 
 # calling the function
