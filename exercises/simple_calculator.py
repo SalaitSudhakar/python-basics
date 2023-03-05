@@ -24,7 +24,7 @@ else:
     print("Invalid operator.")
 
 # Display the result
-print(f"{number1} {operator} {number2} = {result}")
+print(f"Result : {number1} {operator} {number2} = {result}")
 
 f""" Formatted string improves the code readability.
 2 ways to format a string:
