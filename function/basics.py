@@ -1,7 +1,7 @@
 # Functions
 
 # Defining a function
-def greeting(): # use 'def' keyword to define a function
+def greeting(): # use the 'def' keyword to define a function
     print("Good Morning!")
     print("Have a nice day.")
 
@@ -11,7 +11,7 @@ greeting()
 
 # Example 2 :
 def add_numbers(): # Defining a function
-    """This function takes two numbers prompted from user and add them."""
+    """This function takes two numbers prompted from user's and add them."""
     number1 = int(input("Enter a number: "))
     number2 = int(input("Enter another number: "))
     sum_of_numbers = number1 + number2
