@@ -139,7 +139,7 @@ drink_potion()
 """ Here, if you try to access potion_strength variable outside of a function, you will get error.4
 It'll show potion_strength is not defined.
 """
-
+s
 # Global variable:
 # Example :
 player_health = 10 # Global variable
