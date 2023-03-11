@@ -78,7 +78,7 @@ print(number_of_century)
 print(MY_DICT)
 
 # popitem() :
-# Because dict has no index(specific position) , it will return random key-value pair
+# it removes last key-value pair in a dict
 popped_item = MY_DICT.popitem()
 print(popped_item)
 print(MY_DICT)
